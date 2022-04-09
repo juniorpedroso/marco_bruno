@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.example {
+    color: #FFF;
+    /* text-align: center; */
+}
+
+.example-item {
+    width: 33.333%;
+    height: 150px;
+    /* O elemento ul naturamente é block
+    incluimos aqui somente para ficar mais claro */
+    display: block;
+}
+
+.example-item_first {
+    background-color: #FAA116;
+}
+
+.example-item_second {
+    background-color: #57C7C3;
+    /* A propriedade auto faz com que fique alinhado
+    para a esquerda */
+    margin-left: auto;
+}
+
+.example-item_third {
+    background-color: #3897D3;
+    margin-left: auto;
+    margin-right: auto;
+}
